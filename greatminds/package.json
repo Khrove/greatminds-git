@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "scripts": {
     "allure:generate": "allure generate ./allure-results && allure open",
-    "login:production:primary": "APP=dashboard NODE_ENV=production DEVICE=chrome SIZE=default wdio config/production.conf.ts --suite primary",
-    "login:production:alternative": "APP=dashboard NODE_ENV=production DEVICE=chrome SIZE=default wdio config/production.conf.ts --suite alternative",
-    "login:production:exception": "APP=dashboard NODE_ENV=production DEVICE=chrome SIZE=default wdio config/production.conf.ts -- suite exception",
-    "login:production:device:primary": "APP=dashboard NODE_ENV=production DEVICE=tablet SIZE=ipad10 wdio config/production.conf.ts -- suite primary",
-    "login:production:smoke": "APP=dashboard NODE_ENV=production wdio config/production.conf.ts -- suite smoke"
+    "login:production:primary": "APP=dashboard NODE_ENV=production TESTON=chrome SIZE=default wdio config/production.conf.ts --suite primary",
+    "login:production:alternative": "APP=dashboard NODE_ENV=production TESTON=chrome SIZE=default wdio config/production.conf.ts --suite alternative",
+    "login:production:exception": "APP=dashboard NODE_ENV=production TESTON=chrome SIZE=default wdio config/production.conf.ts --suite exception",
+    "login:production:device:primary": "APP=dashboard NODE_ENV=production TESTON=tablet SIZE=ipad10 wdio config/production.conf.ts --suite primary",
+    "login:production:regression": "APP=dashboard NODE_ENV=production TESTON=chrome SIZE=default wdio config/production.conf.ts --suite smoke"
   },
   "dependencies": {
     "@wdio/cli": "^7.14.1"

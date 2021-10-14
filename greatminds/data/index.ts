@@ -9,10 +9,10 @@ try {
 }
 
 try {
-    browserConfig = require(`./devices/${process.env.DEVICE}`);
+    browserConfig = require(`./devices/${process.env.TESTON}`);
     console.log('Browser config data has been configured');
 } catch(e) {
-    console.log('Failed to load browser config data. Please make sure you provide a valid DEVICE variable: chrome, tablet');
+    console.log('Failed to load browser config data. Please make sure you provide a valid TESTON variable: chrome, tablet');
 }
 
 

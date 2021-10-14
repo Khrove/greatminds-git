@@ -1,0 +1,83 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1634250600823' stop='1634250601027'>
+    <name>Login Page Login With Site Code Exception Flows</name>
+    <title>Login Page Login With Site Code Exception Flows</title>
+    <test-cases>
+        <test-case start='1634250600824' status='broken' stop='1634250601027'>
+            <name>"before all" hook for Login Page Login With Site Code Exception Flows</name>
+            <title>"before all" hook for Login Page Login With Site Code Exception Flows</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-94.0.4606.81'/>
+            </parameters>
+            <steps>
+                <step start='1634250600825' status='passed' stop='1634250600847'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='37a32baa-d398-48da-b5a7-ccc6c6fab5a7-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='92043272-74d2-4e0c-8d33-e60d26ee8a9c-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1634250600851' status='passed' stop='1634250600869'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='c1e5507e-d0b7-4ff7-b7ca-4d533de18cf7-attachment.json' type='application/json' size='8337'/>
+                        <attachment title='Response' source='da4cc5cb-fb3a-4b63-a556-885b239718b2-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1634250600869' status='passed' stop='1634250600880'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='38d560fc-8765-4582-9958-9b06afc02e05-attachment.json' type='application/json' size='5649'/>
+                        <attachment title='Response' source='aa7c6210-8be7-472b-82f2-d9c29df5b338-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1634250600881' status='passed' stop='1634250600898'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='95ed0917-8475-47e7-bc8d-da52be527f9f-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='8081fcfb-aee1-4731-9b11-7f37d7bd968d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1634250600900' status='broken' stop='1634250601027'>
+                    <name>POST /session/:sessionId/element/b14517e5-0539-4e4a-a6a1-32b86edc9ca5/click</name>
+                    <title>POST /session/:sessionId/element/b14517e5-0539-4e4a-a6a1-32b86edc9ca5/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>socket hang up</message>
+                <stack-trace>RequestError: socket hang up
+                    at ClientRequest.&lt;anonymous> (/Users/joshuajohnson/WebstormProjects/greatminds-git/greatminds/node_modules/got/dist/source/core/index.js:956:111)
+                    at Object.onceWrapper (events.js:422:26)
+                    at ClientRequest.emit (events.js:327:22)
+                    at ClientRequest.EventEmitter.emit (domain.js:467:12)
+                    at ClientRequest.origin.emit (/Users/joshuajohnson/WebstormProjects/greatminds-git/greatminds/node_modules/@szmarczak/http-timer/dist/source/index.js:43:20)
+                    at Socket.socketOnEnd (_http_client.js:493:9)
+                    at Socket.emit (events.js:327:22)
+                    at Socket.EventEmitter.emit (domain.js:467:12)
+                    at endReadableNT (internal/streams/readable.js:1327:12)
+                    at connResetException (internal/errors.js:607:14)
+                    at Socket.socketOnEnd (_http_client.js:493:23)
+                    at Socket.emit (events.js:327:22)
+                    at Socket.EventEmitter.emit (domain.js:467:12)
+                    at endReadableNT (internal/streams/readable.js:1327:12)
+                    at processTicksAndRejections (internal/process/task_queues.js:80:21)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -25,4 +25,17 @@ describe("Great Minds Alternative (secondary) Login Flows", () => {
         await LoginPage.enterTextIn('password', account.visual.password);
         await LoginPage.revealPassword();
    });
+
+   it('Should allow users to login by pressing the enter key', async () => {
+        await LoginPage.enterTextIn('email', account.teacher.username);
+        await LoginPage.enterTextIn('password', account.teacher.password);
+        await LoginPage.loginWithEnterKey();
+        await CurriculaPage.verifyTeacherDashboard(curricula.teacher.arr);
+        await CurriculaPage.logAdminTeacherOut();
+   });
+
+   it('Should allow users to use the forgot password functionality', async () => {
+        await LoginPage.beginLoginWithEmail();
+        await LoginPage.forgotYourPassword();
+   });
 });

@@ -14,13 +14,18 @@ export const config: WebdriverIO.Config = {
         ],
         exception: [
             './test/specs/exception_login_flows.ts'
+        ],
+        regression: [
+            './test/specs/primary_login_flows.ts',
+            './test/specs/alternative_login_flows.ts',
+            './test/specs/exception_login_flows.ts'
         ]
     },
     exclude: [
     ],
-    maxInstances: 10,
+    maxInstances: 1,
     capabilities: [{
-        maxInstances: 5,
+        maxInstances: 1,
         browserName: 'chrome',
         acceptInsecureCerts: true
     }],
