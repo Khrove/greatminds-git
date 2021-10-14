@@ -1,0 +1,26 @@
+{
+  "name": "greatminds",
+  "version": "1.0.0",
+  "scripts": {
+    "allure:generate": "allure generate ./allure-results && allure open",
+    "login:production:primary": "APP=dashboard NODE_ENV=production DEVICE=chrome SIZE=default wdio config/production.conf.ts --suite primary",
+    "login:production:alternative": "APP=dashboard NODE_ENV=production DEVICE=chrome SIZE=default wdio config/production.conf.ts --suite alternative",
+    "login:production:exception": "APP=dashboard NODE_ENV=production DEVICE=chrome SIZE=default wdio config/production.conf.ts -- suite exception",
+    "login:production:device:primary": "APP=dashboard NODE_ENV=production DEVICE=tablet SIZE=ipad10 wdio config/production.conf.ts -- suite primary",
+    "login:production:smoke": "APP=dashboard NODE_ENV=production wdio config/production.conf.ts -- suite smoke"
+  },
+  "dependencies": {
+    "@wdio/cli": "^7.14.1"
+  },
+  "devDependencies": {
+    "@wdio/allure-reporter": "^7.14.1",
+    "@wdio/local-runner": "^7.14.1",
+    "@wdio/mocha-framework": "^7.14.1",
+    "@wdio/spec-reporter": "^7.14.1",
+    "allure-commandline": "^2.13.8",
+    "chromedriver": "^94.0.0",
+    "ts-node": "^10.3.0",
+    "typescript": "^4.4.4",
+    "wdio-chromedriver-service": "^7.2.2"
+  }
+}
