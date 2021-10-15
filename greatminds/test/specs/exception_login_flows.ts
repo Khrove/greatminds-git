@@ -11,11 +11,6 @@ describe("Login Page Login With Email Exception Flows", () => {
        await LoginPage.beginLoginWithEmail();
     });
 
-    // Due to a bug in WDIO this does not work.
-    // afterEach(async () => {
-    //    browser.refresh();
-    // });
-
     afterEach(async () => {
        await LoginPage.goBack();
        await LoginPage.beginLoginWithEmail();

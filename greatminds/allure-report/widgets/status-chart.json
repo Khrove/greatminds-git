@@ -1,45 +1,35 @@
 [ {
-  "uid" : "aea7b5614b35e37c",
-  "name" : "Should allow district administrators to login with valid credentials",
+  "uid" : "45c753739d7f02d6",
+  "name" : "Should display an invalid email validation message if user provides a non email string",
   "time" : {
-    "start" : 1634180477431,
-    "stop" : 1634180484547,
-    "duration" : 7116
+    "start" : 1634254109265,
+    "stop" : 1634254119658,
+    "duration" : 10393
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "f26a2ffedd0a984",
-  "name" : "Should allow users to login with a valid site code and credentials",
+  "uid" : "9900e3efc6e5e3c3",
+  "name" : "Should display a site code is required message if a user enters a site code then clears the field",
   "time" : {
-    "start" : 1634180484547,
-    "stop" : 1634180491684,
-    "duration" : 7137
+    "start" : 1634254126970,
+    "stop" : 1634254127434,
+    "duration" : 464
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "3cf3bb3a86ae4957",
-  "name" : "should login with valid credentials",
+  "uid" : "a3a1960f49ff65d3",
+  "name" : "Should not allow spaces for the site code field",
   "time" : {
-    "start" : 1634169450089,
-    "stop" : 1634169454463,
-    "duration" : 4374
+    "start" : 1634254130488,
+    "stop" : 1634254130987,
+    "duration" : 499
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "8c9a9c0a432c012c",
-  "name" : "Should allow students to login with valid credentials",
-  "time" : {
-    "start" : 1634180470079,
-    "stop" : 1634180477431,
-    "duration" : 7352
-  },
-  "status" : "passed",
-  "severity" : "normal"
-}, {
-  "uid" : "70002682de49572a",
+  "uid" : "aca23403be9b065d",
   "name" : "\"after each\" hook for Great Minds Primary Login Flows",
   "time" : {
     "start" : 1634170379998,
@@ -49,12 +39,332 @@
   "status" : "broken",
   "severity" : "normal"
 }, {
-  "uid" : "d11179359373aa85",
+  "uid" : "cb60a08368e2462f",
+  "name" : "Should allow users to login with a valid site code and credentials",
+  "time" : {
+    "start" : 1634180484547,
+    "stop" : 1634180491684,
+    "duration" : 7137
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b1ccb5e2938e700c",
+  "name" : "Should allow users to login by pressing the enter key",
+  "time" : {
+    "start" : 1634254092812,
+    "stop" : 1634254104030,
+    "duration" : 11218
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f303ee5b01d668ab",
   "name" : "Should allow teachers to login with valid credentials",
   "time" : {
     "start" : 1634180453428,
     "stop" : 1634180470079,
     "duration" : 16651
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6eb933a8a0fc974",
+  "name" : "Should display a vague validation message if a user submits correct credentials, but an incorrect site code",
+  "time" : {
+    "start" : 1634254130988,
+    "stop" : 1634254132648,
+    "duration" : 1660
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "609238f17329a864",
+  "name" : "Should display an email is required message if user enters an email, then clears the field",
+  "time" : {
+    "start" : 1634254119658,
+    "stop" : 1634254120259,
+    "duration" : 601
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "13d10e43c71e675",
+  "name" : "Should allow users to reveal their password in plaintext",
+  "time" : {
+    "start" : 1634212241955,
+    "stop" : 1634212245654,
+    "duration" : 3699
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "8ad05c93bbd2480c",
+  "name" : "Should display a password is required message if user enters a password, then clears the field",
+  "time" : {
+    "start" : 1634254124056,
+    "stop" : 1634254124615,
+    "duration" : 559
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8dadcd73a2d0252",
+  "name" : "\"before all\" hook for Login Page Login With Site Code Exception Flows",
+  "time" : {
+    "start" : 1634250600824,
+    "stop" : 1634250601027,
+    "duration" : 203
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8c77b8bd380281ed",
+  "name" : "Should allow users to change their login method after beginning a flow",
+  "time" : {
+    "start" : 1634254079801,
+    "stop" : 1634254090665,
+    "duration" : 10864
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3cc5c068cf60612",
+  "name" : "Should allow students to login with valid credentials",
+  "time" : {
+    "start" : 1634254285997,
+    "stop" : 1634254293347,
+    "duration" : 7350
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2328256dd1c0c938",
+  "name" : "Should allow teachers to login with valid credentials",
+  "time" : {
+    "start" : 1634254264190,
+    "stop" : 1634254285997,
+    "duration" : 21807
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "4a44c5ff47c02b1",
+  "name" : "Should display a spaces validation message if a user enters an email with spaces",
+  "time" : {
+    "start" : 1634254120259,
+    "stop" : 1634254120849,
+    "duration" : 590
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e07c9b656da3c939",
+  "name" : "Should display a vague validation message if a user submits a valid user email, but invalid password",
+  "time" : {
+    "start" : 1634250935761,
+    "stop" : 1634250936031,
+    "duration" : 270
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6482e3a41a444f55",
+  "name" : "Should disable the log in button if any field is marked as invalid",
+  "time" : {
+    "start" : 1634254124616,
+    "stop" : 1634254125238,
+    "duration" : 622
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2cc8c766b95f0bfd",
+  "name" : "\"before all\" hook for Great Minds Primary (normal) Login Flows",
+  "time" : {
+    "start" : 1634183347919,
+    "stop" : 1634183351211,
+    "duration" : 3292
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "f42cf487fe3b5e7",
+  "name" : "Should display a valid character message if a user provides an invalid alphanumeric or non @ . + - _ characters",
+  "time" : {
+    "start" : 1634254120850,
+    "stop" : 1634254121429,
+    "duration" : 579
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5d3eb6970a391c7a",
+  "name" : "Should allow users to use the forgot password functionality",
+  "time" : {
+    "start" : 1634254104030,
+    "stop" : 1634254105143,
+    "duration" : 1113
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ba4ee8ed75d181b6",
+  "name" : "Should display a vague validation message if user submits incorrect credentials",
+  "time" : {
+    "start" : 1634254121429,
+    "stop" : 1634254124056,
+    "duration" : 2627
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "aa68389dce70bc3",
+  "name" : "Should limit the site code field to 24 or fewer characters",
+  "time" : {
+    "start" : 1634254129441,
+    "stop" : 1634254130045,
+    "duration" : 604
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1a09b4b75093c827",
+  "name" : "Should display username is required validation message if a user enters a username then clears the field",
+  "time" : {
+    "start" : 1634254125287,
+    "stop" : 1634254126479,
+    "duration" : 1192
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "bd003b4cb1b531d7",
+  "name" : "Should disable the log in button if any field is marked as invalid",
+  "time" : {
+    "start" : 1634254132648,
+    "stop" : 1634254132945,
+    "duration" : 297
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "752f5667f4f75e5b",
+  "name" : "Should require alphanumeric characters in the site code field",
+  "time" : {
+    "start" : 1634254130045,
+    "stop" : 1634254130487,
+    "duration" : 442
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d309a42a6529e664",
+  "name" : "\"after each\" hook for Login Page Login With Site Code Exception Flows",
+  "time" : {
+    "start" : 1634250936617,
+    "stop" : 1634250936992,
+    "duration" : 375
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "73b52a51874ac023",
+  "name" : "Should allow district administrators to login with valid credentials",
+  "time" : {
+    "start" : 1634254293348,
+    "stop" : 1634254300680,
+    "duration" : 7332
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "86c7089b50a2b622",
+  "name" : "Should allow users to reveal their entered password in plaintext",
+  "time" : {
+    "start" : 1634254090666,
+    "stop" : 1634254092811,
+    "duration" : 2145
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3826503386bb5f1",
+  "name" : "Should display a validation message if a user submits invalid site code and credentials",
+  "time" : {
+    "start" : 1634254127434,
+    "stop" : 1634254128990,
+    "duration" : 1556
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "82cf96437987681f",
+  "name" : "Should allow users to login with a valid site code and credentials",
+  "time" : {
+    "start" : 1634254300680,
+    "stop" : 1634254310416,
+    "duration" : 9736
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1c1b0a07dd5409e2",
+  "name" : "Should allow district administrators to login with valid credentials",
+  "time" : {
+    "start" : 1634180477431,
+    "stop" : 1634180484547,
+    "duration" : 7116
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "9196e5e9f5123655",
+  "name" : "Should allow students to login with valid credentials",
+  "time" : {
+    "start" : 1634180470079,
+    "stop" : 1634180477431,
+    "duration" : 7352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "69f1234a6f31f87d",
+  "name" : "\"after each\" hook for Login Page Login With Email Exception Flows",
+  "time" : {
+    "start" : 1634250788697,
+    "stop" : 1634250796273,
+    "duration" : 7576
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "9cddeb93daf0eec8",
+  "name" : "should login with valid credentials",
+  "time" : {
+    "start" : 1634169450089,
+    "stop" : 1634169454463,
+    "duration" : 4374
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c728f0b7918a1db",
+  "name" : "Should require at least 3 characters for the site code field",
+  "time" : {
+    "start" : 1634254128990,
+    "stop" : 1634254129440,
+    "duration" : 450
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "39aafdae6d90339c",
+  "name" : "Should display password is required validation message if a user enters a password then clears the field",
+  "time" : {
+    "start" : 1634254126479,
+    "stop" : 1634254126970,
+    "duration" : 491
   },
   "status" : "passed",
   "severity" : "normal"

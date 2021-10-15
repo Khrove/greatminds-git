@@ -1,0 +1,97 @@
+{
+  "uid" : "2cc8c766b95f0bfd",
+  "name" : "\"before all\" hook for Great Minds Primary (normal) Login Flows",
+  "fullName" : "Great Minds Primary (normal) Login Flows.\"before all\" hook for Great Minds Primary (normal) Login Flows",
+  "historyId" : "4198f093eee68bac968be7c051731237",
+  "time" : {
+    "start" : 1634183347919,
+    "stop" : 1634183351211,
+    "duration" : 3292
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "setWindowSize expects width and height of type number",
+  "statusTrace" : "Error: setWindowSize expects width and height of type number\n                    at Browser.setWindowSize (/Users/joshuajohnson/WebstormProjects/greatminds/node_modules/webdriverio/build/commands/browser/setWindowSize.js:29:15)\n                    at Browser.wrapCommandFn (/Users/joshuajohnson/WebstormProjects/greatminds/node_modules/@wdio/utils/build/shim.js:131:38)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "setWindowSize expects width and height of type number",
+    "statusTrace" : "Error: setWindowSize expects width and height of type number\n                    at Browser.setWindowSize (/Users/joshuajohnson/WebstormProjects/greatminds/node_modules/webdriverio/build/commands/browser/setWindowSize.js:29:15)\n                    at Browser.wrapCommandFn (/Users/joshuajohnson/WebstormProjects/greatminds/node_modules/@wdio/utils/build/shim.js:131:38)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1634183347921,
+        "stop" : 1634183351208,
+        "duration" : 3287
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "185c1b66d0a676c4",
+        "name" : "Request",
+        "source" : "185c1b66d0a676c4.json",
+        "type" : "application/json",
+        "size" : 46
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Great Minds Primary (normal) Login Flows"
+  }, {
+    "name" : "testClass",
+    "value" : "Great Minds Primary (normal) Login Flows"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Great Minds Primary (normal) Login Flows"
+  }, {
+    "name" : "package",
+    "value" : "Great Minds Primary (normal) Login Flows"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2cc8c766b95f0bfd.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}

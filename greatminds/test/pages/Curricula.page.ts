@@ -1,3 +1,8 @@
+/****************************************************
+ * @page Curricula Page (dashboard)
+ * @desc Page containing selectors and functions for the curricula or dashboard page.
+ * @actions At this point mainly used to verify that the user has landed on the right page
+ *****************************************************/
 class CurriculaPage {
     get profileBtn() { return $('#avatar-card-btn'); }
     get studentProfileBtn() { return $('#__next > div > header > button'); }
@@ -16,6 +21,11 @@ class CurriculaPage {
     // Landing page selectors
     get landingPageLoginWithEmailBtn() { return $('.fAlTKp'); }
 
+    /**
+     * @function verifyTeacherDashboard
+     * @desc Verifies that the teacher dashboard is displaying expected text and selectors
+     * @param {array} data Text array containing module names
+     */
     async verifyTeacherDashboard(data) {
         await this.teacherHeader.waitForClickable();
         await expect(this.teacherHeader).toHaveText('Story of Units');
@@ -33,6 +43,11 @@ class CurriculaPage {
         expect(grade).toHaveText('KINDERGARTEN');
     }
 
+    /**
+     * @function verifyStudentDashboard
+     * @desc Verifies that the student dashboard is displaying expected left nav menu
+     * @param {Object} data Object containing expected SRC links
+     */
     async verifyStudentDashboard(data) {
         await this.studentBanner.waitForClickable();
         expect(this.studentBanner).toHaveText('Home');
@@ -47,6 +62,11 @@ class CurriculaPage {
         expect(tools).toHaveText(data.tools);
     }
 
+    /**
+     * @function verifyDistrictAdminDashboard
+     * @desc Verifies that the district admin dashboard is displaying the expected nav items  + district name
+     * @param {Object} data Object containing array nav link items and district name
+     */
     async verifyDistrictAdminDashboard(data) {
         await this.districtName.waitForClickable();
         expect(this.districtName).toHaveText(data.district);
@@ -59,6 +79,11 @@ class CurriculaPage {
         }
     }
 
+    /**
+     * @function logStudentOut
+     * @desc Logs the student out of their dashboard and verifies they land on the login page
+     * Used a different function here because of the additional modal confirmation step
+     */
     async logStudentOut() {
         await this.studentProfileBtn.waitForClickable();
         await this.studentProfileBtn.click();
@@ -69,6 +94,10 @@ class CurriculaPage {
         await this.landingPageLoginWithEmailBtn.waitForClickable();
     }
 
+    /**
+     * @function logAdminTeacherOut
+     * @desc Logs teachers and admins out of their dashboard and verifies they land on the login page
+     */
     async logAdminTeacherOut() {
         await this.profileBtn.waitForClickable();
         await this.profileBtn.click();

@@ -1,13 +1,12 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "name" : "categories",
   "children" : [ {
     "name" : "Test defects",
     "children" : [ {
       "name" : "element (\".ifxWrA\") still not clickable after 10000ms",
       "children" : [ {
         "name" : "\"after each\" hook for Great Minds Primary Login Flows",
-        "uid" : "70002682de49572a",
+        "uid" : "aca23403be9b065d",
         "parentUid" : "d6119af7bff51939cfe8d8d7145bdda1",
         "status" : "broken",
         "time" : {
@@ -20,7 +19,76 @@
         "parameters" : [ "chrome-94.0.4606.81" ]
       } ],
       "uid" : "d6119af7bff51939cfe8d8d7145bdda1"
+    }, {
+      "name" : "socket hang up",
+      "children" : [ {
+        "name" : "\"before all\" hook for Login Page Login With Site Code Exception Flows",
+        "uid" : "b8dadcd73a2d0252",
+        "parentUid" : "acc0e27dc4138cc3eedde57beadca7c8",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634250600824,
+          "stop" : 1634250601027,
+          "duration" : 203
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-94.0.4606.81" ]
+      } ],
+      "uid" : "acc0e27dc4138cc3eedde57beadca7c8"
+    }, {
+      "name" : "browser.refresh is not a function",
+      "children" : [ {
+        "name" : "\"after each\" hook for Login Page Login With Email Exception Flows",
+        "uid" : "69f1234a6f31f87d",
+        "parentUid" : "be23767d6a6b23abbda340015898d4a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634250788697,
+          "stop" : 1634250796273,
+          "duration" : 7576
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-94.0.4606.81" ]
+      }, {
+        "name" : "\"after each\" hook for Login Page Login With Site Code Exception Flows",
+        "uid" : "d309a42a6529e664",
+        "parentUid" : "be23767d6a6b23abbda340015898d4a5",
+        "status" : "broken",
+        "time" : {
+          "start" : 1634250936617,
+          "stop" : 1634250936992,
+          "duration" : 375
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-94.0.4606.81" ]
+      } ],
+      "uid" : "be23767d6a6b23abbda340015898d4a5"
     } ],
     "uid" : "bdbf199525818fae7a8651db9eafe741"
-  } ]
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "setWindowSize expects width and height of type number",
+      "children" : [ {
+        "name" : "\"before all\" hook for Great Minds Primary (normal) Login Flows",
+        "uid" : "2cc8c766b95f0bfd",
+        "parentUid" : "be5f84b5506bc05dedb996a9b486a72f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1634183347919,
+          "stop" : 1634183351211,
+          "duration" : 3292
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-94.0.4606.81" ]
+      } ],
+      "uid" : "be5f84b5506bc05dedb996a9b486a72f"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
 }

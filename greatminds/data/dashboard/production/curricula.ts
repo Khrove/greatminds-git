@@ -19,6 +19,7 @@ export const curricula = {
         tools: '/student/icons/Tools.svg'
     },
     districtAdmin: {
+        district: 'Demo Digital',
         arr: [
             'Dashboard',
             'Schools',

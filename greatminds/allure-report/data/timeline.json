@@ -1,37 +1,504 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
-  "name" : "timeline",
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
       "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "ea863cce209198c2",
+      "uid" : "9ab1543c570f2c27",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634180334044,
+        "stop" : 1634180348650,
+        "duration" : 14606
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an invalid email validation message if user provides a non email string",
+      "uid" : "edf08eb73270a46f",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634180033870,
-        "stop" : 1634180050366,
-        "duration" : 16496
+        "start" : 1634253362518,
+        "stop" : 1634253371921,
+        "duration" : 9403
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display password is required validation message if a user enters a password then clears the field",
+      "uid" : "71395f56aaf0bb84",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253377713,
+        "stop" : 1634253378149,
+        "duration" : 436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login by pressing the enter key",
+      "uid" : "b1ccb5e2938e700c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254092812,
+        "stop" : 1634254104030,
+        "duration" : 11218
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
       "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "c4110fa9d94f23f4",
+      "uid" : "4ab9ba08b84e16bc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634180139243,
+        "stop" : 1634180154270,
+        "duration" : 15027
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an email is required message if user enters an email, then clears the field",
+      "uid" : "852fc44a0787f3ac",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634251878504,
+        "stop" : 1634251879057,
+        "duration" : 553
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "92570f995f732354",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634172341372,
+        "stop" : 1634172347687,
+        "duration" : 6315
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login by pressing the enter key",
+      "uid" : "c3e48134a3d53f89",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253914714,
+        "stop" : 1634253926154,
+        "duration" : 11440
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display username is required validation message if a user enters a username then clears the field",
+      "uid" : "ff99782c855d00a1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253477670,
+        "stop" : 1634253478743,
+        "duration" : 1073
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login with a valid site code and credentials",
+      "uid" : "9679898ce7745300",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634247012646,
+        "stop" : 1634247020734,
+        "duration" : 8088
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if a user submits a valid user email, but invalid password",
+      "uid" : "e07c9b656da3c939",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634250935761,
+        "stop" : 1634250936031,
+        "duration" : 270
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should not allow spaces for the site code field",
+      "uid" : "12a78458f8e7c7a8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253760196,
+        "stop" : 1634253760704,
+        "duration" : 508
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "eeedd742426118e0",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1634178455075,
-        "stop" : 1634178469310,
-        "duration" : 14235
+        "start" : 1634175612530,
+        "stop" : 1634175627048,
+        "duration" : 14518
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
       "name" : "Should allow district administrators to login with valid credentials",
-      "uid" : "af240cb3ede703c7",
+      "uid" : "4af5fcaa02dc9d01",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634183545052,
+        "stop" : 1634183551316,
+        "duration" : 6264
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to use the forgot password functionality",
+      "uid" : "5196db6573680a9e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253926155,
+        "stop" : 1634253927057,
+        "duration" : 902
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "fd8f27ab601a1bb7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634183377672,
+        "stop" : 1634183394762,
+        "duration" : 17090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "f8d8562e78a68e9a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253754993,
+        "stop" : 1634253755563,
+        "duration" : 570
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "aaeaad983c70acfc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634180189879,
+        "stop" : 1634180204546,
+        "duration" : 14667
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "d606d8aeeec28316",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634210980512,
+        "stop" : 1634210987048,
+        "duration" : 6536
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "\"after each\" hook for Login Page Login With Site Code Exception Flows",
+      "uid" : "d309a42a6529e664",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634250936617,
+        "stop" : 1634250936992,
+        "duration" : 375
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "\"after each\" hook for Login Page Login With Site Code Exception Flows",
+      "uid" : "91e89ca187b2c643",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634250796283,
+        "stop" : 1634250797564,
+        "duration" : 1281
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a validation message if a user submits invalid site code and credentials",
+      "uid" : "36f03bf3bcd125a4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253757311,
+        "stop" : 1634253758702,
+        "duration" : 1391
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "87184422e4b78781",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634171373057,
+        "stop" : 1634171383293,
+        "duration" : 10236
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to change their login method after beginning a flow",
+      "uid" : "965f949c31d6f3dc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634211517517,
+        "stop" : 1634211524931,
+        "duration" : 7414
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "c9313713e282cad6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634179191800,
+        "stop" : 1634179208251,
+        "duration" : 16451
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to reveal their entered password in plaintext",
+      "uid" : "f83f0aa37d518695",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634248435797,
+        "stop" : 1634248437772,
+        "duration" : 1975
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "1d7f4ee4b831b880",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634179269183,
+        "stop" : 1634179277142,
+        "duration" : 7959
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an invalid email validation message if user provides a non email string",
+      "uid" : "83ff38f4dd92374d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634250914885,
+        "stop" : 1634250924084,
+        "duration" : 9199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to reveal their password in plaintext",
+      "uid" : "13d10e43c71e675",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634212241955,
+        "stop" : 1634212245654,
+        "duration" : 3699
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if a user submits correct credentials, but an incorrect site code",
+      "uid" : "e43fdcc912db1e6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253664300,
+        "stop" : 1634253665701,
+        "duration" : 1401
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "41acbfd1923c0c87",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634179969708,
+        "stop" : 1634179986118,
+        "duration" : 16410
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login by pressing the enter key",
+      "uid" : "701feebc47b84f97",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634248332642,
+        "stop" : 1634248343300,
+        "duration" : 10658
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "35bb07d24a2af61f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634174498395,
+        "stop" : 1634174513483,
+        "duration" : 15088
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "a93df4b11506b2a0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254188409,
+        "stop" : 1634254208530,
+        "duration" : 20121
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an email is required message if user enters an email, then clears the field",
+      "uid" : "669a225710b77654",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253597269,
+        "stop" : 1634253597862,
+        "duration" : 593
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "1c1b0a07dd5409e2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634180477431,
+        "stop" : 1634180484547,
+        "duration" : 7116
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "b070d4297ead0ce2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634172229421,
+        "stop" : 1634172236068,
+        "duration" : 6647
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an email is required message if user enters an email, then clears the field",
+      "uid" : "15b681885371dd9b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253654614,
+        "stop" : 1634253655064,
+        "duration" : 450
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "a9fa5336cd615087",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -43,8 +510,359 @@
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
+      "name" : "Should limit the site code field to 24 or fewer characters",
+      "uid" : "ff8c103bdc30c60d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634253381458,
+        "stop" : 1634253382205,
+        "duration" : 747
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a password is required message if user enters a password, then clears the field",
+      "uid" : "101aeeef7e7fde97",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634251709025,
+        "stop" : 1634251709457,
+        "duration" : 432
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an email is required message if user enters an email, then clears the field",
+      "uid" : "51985e1cdac0a981",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634250924084,
+        "stop" : 1634250935243,
+        "duration" : 11159
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a spaces validation message if a user enters an email with spaces",
+      "uid" : "10b4680057022690",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253473510,
+        "stop" : 1634253474019,
+        "duration" : 509
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a valid character message if a user provides an invalid alphanumeric or non @ . + - _ characters",
+      "uid" : "24fe0fbc3129e351",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253474019,
+        "stop" : 1634253474509,
+        "duration" : 490
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if a user submits correct credentials, but an incorrect site code",
+      "uid" : "9aada0be02ad7bd3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634253606602,
+        "stop" : 1634253617508,
+        "duration" : 10906
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if user submits incorrect credentials",
+      "uid" : "6e4305f3be4e6466",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634250935503,
+        "stop" : 1634250935760,
+        "duration" : 257
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should limit the site code field to 24 or fewer characters",
+      "uid" : "bfdb14a18ecdec42",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253481217,
+        "stop" : 1634253481781,
+        "duration" : 564
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
       "name" : "Should allow users to login with a valid site code and credentials",
-      "uid" : "75f4c410cc88b187",
+      "uid" : "58cac6324c43c779",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254227209,
+        "stop" : 1634254234628,
+        "duration" : 7419
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to change their login method after beginning a flow",
+      "uid" : "d6038a34603d9f34",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634212234101,
+        "stop" : 1634212241954,
+        "duration" : 7853
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login with a valid site code and credentials",
+      "uid" : "29988497b388eb3a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634183409405,
+        "stop" : 1634183417255,
+        "duration" : 7850
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "995dbc86e2cf8604",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634172347687,
+        "stop" : 1634172356669,
+        "duration" : 8982
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "c4fc88f84012c5fa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1634177384005,
+        "stop" : 1634177408060,
+        "duration" : 24055
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "968b63e497842448",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634169286491,
+        "stop" : 1634169296581,
+        "duration" : 10090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login by pressing the enter key",
+      "uid" : "16ad608fbf55491b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634248437772,
+        "stop" : 1634248448167,
+        "duration" : 10395
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "a25cc891644c9650",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634171646870,
+        "stop" : 1634171662667,
+        "duration" : 15797
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a password is required message if user enters a password, then clears the field",
+      "uid" : "30330c41aa580a6f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253375619,
+        "stop" : 1634253376048,
+        "duration" : 429
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display password is required validation message if a user enters a password then clears the field",
+      "uid" : "bf81b56fdf766d22",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253602585,
+        "stop" : 1634253603045,
+        "duration" : 460
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "802d98d77f03f3c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634183394762,
+        "stop" : 1634183402068,
+        "duration" : 7306
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an email is required message if user enters an email, then clears the field",
+      "uid" : "b6e553d2510092dc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634251694258,
+        "stop" : 1634251705373,
+        "duration" : 11115
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "\"after each\" hook for Login Page Login With Site Code Exception Flows",
+      "uid" : "9d1f2850f61018f5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634250746579,
+        "stop" : 1634250748289,
+        "duration" : 1710
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "d170b6866312d0eb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634177251586,
+        "stop" : 1634177274946,
+        "duration" : 23360
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display username is required validation message if a user enters a username then clears the field",
+      "uid" : "f25e34d2243f4c41",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253601854,
+        "stop" : 1634253602585,
+        "duration" : 731
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to change their login method after beginning a flow",
+      "uid" : "ac427a36a1f95961",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253903548,
+        "stop" : 1634253912733,
+        "duration" : 9185
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "c14adaae390058ed",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634172236068,
+        "stop" : 1634172242546,
+        "duration" : 6478
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to change their login method after beginning a flow",
+      "uid" : "2282320e7ed406e8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634248322235,
+        "stop" : 1634248330848,
+        "duration" : 8613
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an email is required message if user enters an email, then clears the field",
+      "uid" : "adc984bbea38a071",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253371922,
+        "stop" : 1634253372376,
+        "duration" : 454
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login with a valid site code and credentials",
+      "uid" : "f65681fdcff515e5",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
@@ -57,397 +875,293 @@
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
       "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "9db992700a2ea085",
+      "uid" : "917adcc72cce1d9",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634179969708,
-        "stop" : 1634179986118,
-        "duration" : 16410
+        "start" : 1634172325838,
+        "stop" : 1634172341372,
+        "duration" : 15534
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "2059d834a20da0e6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634210972872,
+        "stop" : 1634210980511,
+        "duration" : 7639
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should require alphanumeric characters in the site code field",
+      "uid" : "889fc0faf5050d0d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253663445,
+        "stop" : 1634253663869,
+        "duration" : 424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to use the forgot password functionality",
+      "uid" : "c315516305797fe7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634248343300,
+        "stop" : 1634248353989,
+        "duration" : 10689
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display password is required validation message if a user enters a password then clears the field",
+      "uid" : "4ebdada89dd458a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253756333,
+        "stop" : 1634253756840,
+        "duration" : 507
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "7441367fe94cd667",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253493732,
+        "stop" : 1634253494203,
+        "duration" : 471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "5acb0af391ff6383",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634183537919,
+        "stop" : 1634183545051,
+        "duration" : 7132
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a valid character message if a user provides an invalid alphanumeric or non @ . + - _ characters",
+      "uid" : "7c37edd831e0528a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634251706019,
+        "stop" : 1634251706607,
+        "duration" : 588
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a spaces validation message if a user enters an email with spaces",
+      "uid" : "2fe9f88077faa67d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253597862,
+        "stop" : 1634253598387,
+        "duration" : 525
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display password is required validation message if a user enters a password then clears the field",
+      "uid" : "e69cdd49ebd29a3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253478743,
+        "stop" : 1634253479180,
+        "duration" : 437
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an invalid email validation message if user provides a non email string",
+      "uid" : "43498af81c02816e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634251685175,
+        "stop" : 1634251694257,
+        "duration" : 9082
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
       "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "6dff1c91a7c17642",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634180139243,
-        "stop" : 1634180154270,
-        "duration" : 15027
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "\"after each\" hook for Great Minds Primary Login Flows",
-      "uid" : "70002682de49572a",
+      "uid" : "c56475382a2cfedf",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
-        "start" : 1634170379998,
-        "stop" : 1634170390631,
-        "duration" : 10633
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow students to login with valid credentials",
-      "uid" : "c06343e18cd6ee85",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634179269183,
-        "stop" : 1634179277142,
-        "duration" : 7959
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow district administrators to login with valid credentials",
-      "uid" : "8be7da9d502b5ab1",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1634171383294,
-        "stop" : 1634171393483,
-        "duration" : 10189
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow students to login with valid credentials",
-      "uid" : "f1e0b7517376ec4e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1634177251586,
-        "stop" : 1634177274946,
-        "duration" : 23360
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow students to login with valid credentials",
-      "uid" : "47012bc0da1f1189",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634174513483,
-        "stop" : 1634174519934,
-        "duration" : 6451
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow district administrators to login with valid credentials",
-      "uid" : "97d105ed09e3b77c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634172236068,
-        "stop" : 1634172242546,
-        "duration" : 6478
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow students to login with valid credentials",
-      "uid" : "723acba98fa94564",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1634171373057,
-        "stop" : 1634171383293,
-        "duration" : 10236
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "2166053a6b3d4861",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634169238985,
-        "stop" : 1634169239005,
-        "duration" : 20
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow district administrators to login with valid credentials",
-      "uid" : "a1badc38f1a87b39",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634172347687,
-        "stop" : 1634172356669,
-        "duration" : 8982
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow district administrators to login with valid credentials",
-      "uid" : "aea7b5614b35e37c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634180477431,
-        "stop" : 1634180484547,
-        "duration" : 7116
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "15e2d7257d77b5fb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1634169286491,
-        "stop" : 1634169296581,
-        "duration" : 10090
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "3cf3bb3a86ae4957",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634169450089,
-        "stop" : 1634169454463,
-        "duration" : 4374
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow students to login with valid credentials",
-      "uid" : "75d9127740d3f4d0",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634172341372,
-        "stop" : 1634172347687,
-        "duration" : 6315
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow students to login with valid credentials",
-      "uid" : "f5ab5bc58e41d55c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634176844519,
-        "stop" : 1634176851123,
-        "duration" : 6604
+        "start" : 1634180067144,
+        "stop" : 1634180082653,
+        "duration" : 15509
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
       "name" : "Should allow users to login with a valid site code and credentials",
-      "uid" : "f26a2ffedd0a984",
+      "uid" : "b0435e265b95abfa",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634180484547,
-        "stop" : 1634180491684,
-        "duration" : 7137
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "d11179359373aa85",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634180453428,
-        "stop" : 1634180470079,
-        "duration" : 16651
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "d12a43b10e3794fd",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634179191800,
-        "stop" : 1634179208251,
-        "duration" : 16451
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "bbd3cc4b9bfbc11f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1634180334044,
-        "stop" : 1634180348650,
-        "duration" : 14606
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "19095dc6dc8efa90",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1634175513101,
-        "stop" : 1634175538455,
-        "duration" : 25354
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "8d7a8ab3de042b24",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634169056740,
-        "stop" : 1634169056749,
-        "duration" : 9
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "90be069507bdb70b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634171646870,
-        "stop" : 1634171662667,
-        "duration" : 15797
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "332f1a2c613d2942",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634170364587,
-        "stop" : 1634170379997,
-        "duration" : 15410
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "ffa53451ee802e5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634172155982,
-        "stop" : 1634172172221,
-        "duration" : 16239
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "3ddc66ebb69a0aec",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634166726535,
-        "stop" : 1634166728778,
-        "duration" : 2243
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow users to login with a valid site code and credentials",
-      "uid" : "c2241671812adb3a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1634172242546,
-        "stop" : 1634172253244,
-        "duration" : 10698
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "fd26e781254fd860",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634169195349,
-        "stop" : 1634169195364,
-        "duration" : 15
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "8ff24935b0ed391c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634178383141,
-        "stop" : 1634178399857,
-        "duration" : 16716
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "e1510b27fd74a232",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634169823466,
-        "stop" : 1634169831601,
-        "duration" : 8135
+        "start" : 1634183508083,
+        "stop" : 1634183514101,
+        "duration" : 6018
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
       "name" : "Should allow district administrators to login with valid credentials",
-      "uid" : "72991ae63a2d6078",
+      "uid" : "425e73c394636115",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634172182787,
+        "stop" : 1634172192986,
+        "duration" : 10199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "9ad77f9d7b1bf537",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634179216022,
+        "stop" : 1634179222400,
+        "duration" : 6378
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a validation message if a user submits invalid site code and credentials",
+      "uid" : "a8f4046799f44c0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253603445,
+        "stop" : 1634253604761,
+        "duration" : 1316
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should require at least 3 characters for the site code field",
+      "uid" : "da13a936ae06cd09",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634253380803,
+        "stop" : 1634253381458,
+        "duration" : 655
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a spaces validation message if a user enters an email with spaces",
+      "uid" : "8e2d5cdcf466f94d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634251705374,
+        "stop" : 1634251706019,
+        "duration" : 645
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "212342277060957e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254208530,
+        "stop" : 1634254218848,
+        "duration" : 10318
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if user submits incorrect credentials",
+      "uid" : "77972e3b572e0308",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253598811,
+        "stop" : 1634253600937,
+        "duration" : 2126
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a password is required message if user enters a password, then clears the field",
+      "uid" : "5af1dae16a35af32",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253658329,
+        "stop" : 1634253658766,
+        "duration" : 437
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if user submits incorrect credentials",
+      "uid" : "4c14aca0fdbab685",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253373399,
+        "stop" : 1634253375619,
+        "duration" : 2220
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "bef108419352d649",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -459,8 +1173,580 @@
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "a4443c34d3518c2f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253658767,
+        "stop" : 1634253659313,
+        "duration" : 546
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "eeb24448ab37c3d4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254218848,
+        "stop" : 1634254227208,
+        "duration" : 8360
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if a user submits correct credentials, but an incorrect site code",
+      "uid" : "b4c9487f68301da",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634253383460,
+        "stop" : 1634253394508,
+        "duration" : 11048
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should not allow spaces for the site code field",
+      "uid" : "c689bcaad7a3aa81",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253606157,
+        "stop" : 1634253606602,
+        "duration" : 445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "43f0394326636d20",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634176891317,
+        "stop" : 1634176898054,
+        "duration" : 6737
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a valid character message if a user provides an invalid alphanumeric or non @ . + - _ characters",
+      "uid" : "6cc59602049ca92c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253655657,
+        "stop" : 1634253656156,
+        "duration" : 499
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "c3fd546c8a99286f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253394508,
+        "stop" : 1634253394777,
+        "duration" : 269
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a site code is required message if a user enters a site code then clears the field",
+      "uid" : "6e0ca5390ec995f6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253603045,
+        "stop" : 1634253603445,
+        "duration" : 400
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to reveal their entered password in plaintext",
+      "uid" : "da5e8e013a2da899",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253912735,
+        "stop" : 1634253914714,
+        "duration" : 1979
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if user submits incorrect credentials",
+      "uid" : "990cd31dcf384263",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634251880089,
+        "stop" : 1634251882335,
+        "duration" : 2246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "e00736306dac96e2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634211022887,
+        "stop" : 1634211039313,
+        "duration" : 16426
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
       "name" : "Should allow users to login with a valid site code and credentials",
-      "uid" : "d9641b2f5ddcd298",
+      "uid" : "b93deb9ef0a63034",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634211052604,
+        "stop" : 1634211061434,
+        "duration" : 8830
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to change their login method after beginning a flow",
+      "uid" : "8c77b8bd380281ed",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254079801,
+        "stop" : 1634254090665,
+        "duration" : 10864
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "\"after each\" hook for Great Minds Primary Login Flows",
+      "uid" : "aca23403be9b065d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634170379998,
+        "stop" : 1634170390631,
+        "duration" : 10633
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "a5d5d33ea28bd842",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634167242891,
+        "stop" : 1634167242898,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a site code is required message if a user enters a site code then clears the field",
+      "uid" : "576ef2ea604d9902",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253479180,
+        "stop" : 1634253479576,
+        "duration" : 396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "9cddeb93daf0eec8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634169450089,
+        "stop" : 1634169454463,
+        "duration" : 4374
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if a user submits correct credentials, but an incorrect site code",
+      "uid" : "5bb824e64073b294",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634253482583,
+        "stop" : 1634253493732,
+        "duration" : 11149
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "2cf0dd97a9cab9ef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634175436925,
+        "stop" : 1634175453240,
+        "duration" : 16315
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "81101966fdaac053",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634170364587,
+        "stop" : 1634170379997,
+        "duration" : 15410
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to reveal their entered password in plaintext",
+      "uid" : "86c7089b50a2b622",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254090666,
+        "stop" : 1634254092811,
+        "duration" : 2145
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should not allow spaces for the site code field",
+      "uid" : "8dcfb4b74ef2cdbd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253663869,
+        "stop" : 1634253664300,
+        "duration" : 431
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login with a valid site code and credentials",
+      "uid" : "5310820d0148b647",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634171675014,
+        "stop" : 1634171675015,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "d1456b3e7705739",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634169412837,
+        "stop" : 1634169422982,
+        "duration" : 10145
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "c9b16e77e5acc81f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634179208251,
+        "stop" : 1634179216021,
+        "duration" : 7770
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a site code is required message if a user enters a site code then clears the field",
+      "uid" : "78f44a5763ddacb4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634253378149,
+        "stop" : 1634253378849,
+        "duration" : 700
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "8130b091361c2930",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634175384672,
+        "stop" : 1634175402135,
+        "duration" : 17463
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a validation message if a user submits invalid site code and credentials",
+      "uid" : "f58caef1a5b84c55",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634253378850,
+        "stop" : 1634253380803,
+        "duration" : 1953
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "39ce91590a5e7594",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634178383141,
+        "stop" : 1634178399857,
+        "duration" : 16716
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a password is required message if user enters a password, then clears the field",
+      "uid" : "863a3063437c00dc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253600937,
+        "stop" : 1634253601334,
+        "duration" : 397
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "251fedbbe35fd334",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253762256,
+        "stop" : 1634253762543,
+        "duration" : 287
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "3e8a1c4e68bde6fe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634183521220,
+        "stop" : 1634183537919,
+        "duration" : 16699
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "2bf4c7269763aabc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634174513483,
+        "stop" : 1634174519934,
+        "duration" : 6451
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to use the forgot password functionality",
+      "uid" : "5d3eb6970a391c7a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254104030,
+        "stop" : 1634254105143,
+        "duration" : 1113
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "aed60e972381a2c8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634183492106,
+        "stop" : 1634183501049,
+        "duration" : 8943
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an email is required message if user enters an email, then clears the field",
+      "uid" : "46826aa603e4cd8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253473019,
+        "stop" : 1634253473510,
+        "duration" : 491
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "2b7266de3b55cf69",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634171662668,
+        "stop" : 1634171669023,
+        "duration" : 6355
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "42ec095ac915b968",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253601334,
+        "stop" : 1634253601812,
+        "duration" : 478
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "dbcf697fc1486444",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634211046178,
+        "stop" : 1634211052603,
+        "duration" : 6425
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to reveal their entered password in plaintext",
+      "uid" : "1d18cdbce5357734",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634248330848,
+        "stop" : 1634248332642,
+        "duration" : 1794
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if a user submits correct credentials, but an incorrect site code",
+      "uid" : "b6c41b002c65f903",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253760704,
+        "stop" : 1634253762256,
+        "duration" : 1552
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login with a valid site code and credentials",
+      "uid" : "cb60a08368e2462f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634180484547,
+        "stop" : 1634180491684,
+        "duration" : 7137
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should require at least 3 characters for the site code field",
+      "uid" : "a67af3c46234cd42",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253662479,
+        "stop" : 1634253662920,
+        "duration" : 441
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should limit the site code field to 24 or fewer characters",
+      "uid" : "62429a2c390df823",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253759169,
+        "stop" : 1634253759729,
+        "duration" : 560
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login with a valid site code and credentials",
+      "uid" : "e4cc9d23c2fa0581",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "broken",
       "time" : {
@@ -473,319 +1759,7 @@
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
       "name" : "Should allow students to login with valid credentials",
-      "uid" : "d02f4e4d4e0f8b4f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634176891317,
-        "stop" : 1634176898054,
-        "duration" : 6737
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow students to login with valid credentials",
-      "uid" : "d0f6608556eaa6de",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1634177384005,
-        "stop" : 1634177408060,
-        "duration" : 24055
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow students to login with valid credentials",
-      "uid" : "db0c12916b296298",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1634172172221,
-        "stop" : 1634172182785,
-        "duration" : 10564
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "6cf6a96edc6854aa",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634178625235,
-        "stop" : 1634178641888,
-        "duration" : 16653
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow district administrators to login with valid credentials",
-      "uid" : "89de83aa1cfaebfb",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1634172182787,
-        "stop" : 1634172192986,
-        "duration" : 10199
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow students to login with valid credentials",
-      "uid" : "66e3a31fae4e0323",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634177642497,
-        "stop" : 1634177659058,
-        "duration" : 16561
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "1ad73cf9cec52e4b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634169378720,
-        "stop" : 1634169383269,
-        "duration" : 4549
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "f6e8904e88c473ee",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1634180067144,
-        "stop" : 1634180082653,
-        "duration" : 15509
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow students to login with valid credentials",
-      "uid" : "3844991e3f56f8e",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634172229421,
-        "stop" : 1634172236068,
-        "duration" : 6647
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "dbbe0572564f373a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1634171348708,
-        "stop" : 1634171373055,
-        "duration" : 24347
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "3ecb0bdcfed0fb65",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634169162707,
-        "stop" : 1634169162715,
-        "duration" : 8
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "b3b798e41d26fc7b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634179251847,
-        "stop" : 1634179269183,
-        "duration" : 17336
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "f2ba1a567ff4244b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1634169412837,
-        "stop" : 1634169422982,
-        "duration" : 10145
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "45f92cc160c18b27",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634176874605,
-        "stop" : 1634176891317,
-        "duration" : 16712
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "c56e5564be1f44a4",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634175384672,
-        "stop" : 1634175402135,
-        "duration" : 17463
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow district administrators to login with valid credentials",
-      "uid" : "d21331bdc72bbd33",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634171669023,
-        "stop" : 1634171675014,
-        "duration" : 5991
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow district administrators to login with valid credentials",
-      "uid" : "6ae286ab8b1b6e28",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634179216022,
-        "stop" : 1634179222400,
-        "duration" : 6378
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow district administrators to login with valid credentials",
-      "uid" : "65d79250087a5d09",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634179277142,
-        "stop" : 1634179283380,
-        "duration" : 6238
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "bc7127e2300bc7f5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634172325838,
-        "stop" : 1634172341372,
-        "duration" : 15534
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow users to login with a valid site code and credentials",
-      "uid" : "31666c9dc842c00a",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634171393483,
-        "stop" : 1634171393484,
-        "duration" : 1
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow students to login with valid credentials",
-      "uid" : "e1f0070352c87e06",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
-      "time" : {
-        "start" : 1634177308927,
-        "stop" : 1634177332716,
-        "duration" : 23789
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "should login with valid credentials",
-      "uid" : "88ce0387438330aa",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1634167242891,
-        "stop" : 1634167242898,
-        "duration" : 7
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "c92317d7c85a8591",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1634178284290,
-        "stop" : 1634178299296,
-        "duration" : 15006
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "e7dd783300e3a4d5",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1634180189879,
-        "stop" : 1634180204546,
-        "duration" : 14667
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-94.0.4606.81" ]
-    }, {
-      "name" : "Should allow students to login with valid credentials",
-      "uid" : "1e924e3c1868c240",
+      "uid" : "aa33b3c056cc61a2",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
@@ -797,86 +1771,346 @@
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "33b998f4480333d4",
+      "name" : "Should display a vague validation message if user submits incorrect credentials",
+      "uid" : "b40b60041c9644e7",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
+      "status" : "passed",
       "time" : {
-        "start" : 1634175612530,
-        "stop" : 1634175627048,
-        "duration" : 14518
+        "start" : 1634253751912,
+        "stop" : 1634253754478,
+        "duration" : 2566
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a password is required message if user enters a password, then clears the field",
+      "uid" : "1233238a30c7fbef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253754478,
+        "stop" : 1634253754993,
+        "duration" : 515
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
       "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "204bcb48e861d2f",
+      "uid" : "b91b6ac76a6ace0a",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634174498395,
-        "stop" : 1634174513483,
-        "duration" : 15088
+        "start" : 1634180390341,
+        "stop" : 1634180406913,
+        "duration" : 16572
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
-      "name" : "Should allow users to login with a valid site code and credentials",
-      "uid" : "28b2359ec8f7c53e",
+      "name" : "should login with valid credentials",
+      "uid" : "77578a76411932ad",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634174526239,
-        "stop" : 1634174527421,
-        "duration" : 1182
+        "start" : 1634169162707,
+        "stop" : 1634169162715,
+        "duration" : 8
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
-      "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "795252cc07d8833d",
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "73b52a51874ac023",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634175436925,
-        "stop" : 1634175453240,
-        "duration" : 16315
+        "start" : 1634254293348,
+        "stop" : 1634254300680,
+        "duration" : 7332
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if user submits incorrect credentials",
+      "uid" : "14f1460836750f4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253656157,
+        "stop" : 1634253658329,
+        "duration" : 2172
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a site code is required message if a user enters a site code then clears the field",
+      "uid" : "9517b9f4ca2a6c9b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253660897,
+        "stop" : 1634253661290,
+        "duration" : 393
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
       "name" : "Should allow students to login with valid credentials",
-      "uid" : "923b147ab0461215",
+      "uid" : "aa3b775cb379d2a4",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634179208251,
-        "stop" : 1634179216021,
-        "duration" : 7770
+        "start" : 1634246999697,
+        "stop" : 1634247006733,
+        "duration" : 7036
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "d513af71690a2c8d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634251882787,
+        "stop" : 1634251883287,
+        "duration" : 500
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "\"after each\" hook for Login Page Login With Email Exception Flows",
+      "uid" : "c2c8b9722c348e45",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634250738971,
+        "stop" : 1634250746567,
+        "duration" : 7596
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login with a valid site code and credentials",
+      "uid" : "82cf96437987681f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254300680,
+        "stop" : 1634254310416,
+        "duration" : 9736
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should not allow spaces for the site code field",
+      "uid" : "c5d5766573cfb64",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634253382817,
+        "stop" : 1634253383459,
+        "duration" : 642
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
       "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "57fab28d29573585",
+      "uid" : "8c373adc898eaef3",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634172213892,
-        "stop" : 1634172229420,
-        "duration" : 15528
+        "start" : 1634246980972,
+        "stop" : 1634246999696,
+        "duration" : 18724
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a site code is required message if a user enters a site code then clears the field",
+      "uid" : "724a9c6637247149",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253756840,
+        "stop" : 1634253757311,
+        "duration" : 471
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display password is required validation message if a user enters a password then clears the field",
+      "uid" : "cfec2acfc844360f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253660466,
+        "stop" : 1634253660897,
+        "duration" : 431
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login with a valid site code and credentials",
+      "uid" : "33982671c7bff690",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634183551316,
+        "stop" : 1634183557931,
+        "duration" : 6615
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "3cc5c068cf60612",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254285997,
+        "stop" : 1634254293347,
+        "duration" : 7350
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
       "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "cbf161f5c7e2f03",
+      "uid" : "f303ee5b01d668ab",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634180453428,
+        "stop" : 1634180470079,
+        "duration" : 16651
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an invalid email validation message if user provides a non email string",
+      "uid" : "74b9f422330191c5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253588749,
+        "stop" : 1634253597269,
+        "duration" : 8520
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "1ccfc5f26dae9909",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634171383294,
+        "stop" : 1634171393483,
+        "duration" : 10189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "180a08395864fe44",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253617508,
+        "stop" : 1634253617765,
+        "duration" : 257
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "b7dbc67ad6262d0d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634251709457,
+        "stop" : 1634251709939,
+        "duration" : 482
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "bea11e359c8a8566",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634179277142,
+        "stop" : 1634179283380,
+        "duration" : 6238
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login with a valid site code and credentials",
+      "uid" : "4a0c6ee9984e8244",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634210987048,
+        "stop" : 1634210997144,
+        "duration" : 10096
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a spaces validation message if a user enters an email with spaces",
+      "uid" : "b4292bfd131f95cd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253750843,
+        "stop" : 1634253751407,
+        "duration" : 564
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should limit the site code field to 24 or fewer characters",
+      "uid" : "d5adc241fc32376",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253662920,
+        "stop" : 1634253663445,
+        "duration" : 525
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "68275da9c10ca660",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -889,20 +2123,462 @@
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
       "name" : "Should allow teachers to login with valid credentials",
-      "uid" : "c331130140e88884",
+      "uid" : "48d18f744544ae99",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634178284290,
+        "stop" : 1634178299296,
+        "duration" : 15006
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a valid character message if a user provides an invalid alphanumeric or non @ . + - _ characters",
+      "uid" : "2f07c8f99fe8b515",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634180390341,
-        "stop" : 1634180406913,
-        "duration" : 16572
+        "start" : 1634253598387,
+        "stop" : 1634253598811,
+        "duration" : 424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should require at least 3 characters for the site code field",
+      "uid" : "b2b187fba674c2c1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253758702,
+        "stop" : 1634253759169,
+        "duration" : 467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a valid character message if a user provides an invalid alphanumeric or non @ . + - _ characters",
+      "uid" : "54d6b555b2e1d590",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253751407,
+        "stop" : 1634253751911,
+        "duration" : 504
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should require alphanumeric characters in the site code field",
+      "uid" : "28913e1189c89a19",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253605677,
+        "stop" : 1634253606157,
+        "duration" : 480
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should require alphanumeric characters in the site code field",
+      "uid" : "4d93d95a34a7a974",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253481781,
+        "stop" : 1634253482189,
+        "duration" : 408
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should require at least 3 characters for the site code field",
+      "uid" : "cc7e906d6c6f31a6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253480811,
+        "stop" : 1634253481217,
+        "duration" : 406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "2aa11f1942e1fffa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634169378720,
+        "stop" : 1634169383269,
+        "duration" : 4549
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "300a4504cc264831",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634172155982,
+        "stop" : 1634172172221,
+        "duration" : 16239
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a spaces validation message if a user enters an email with spaces",
+      "uid" : "de174f79be276171",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253372376,
+        "stop" : 1634253372886,
+        "duration" : 510
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to use the forgot password functionality",
+      "uid" : "c13d2f7be5b07bd4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634248448167,
+        "stop" : 1634248448942,
+        "duration" : 775
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an invalid email validation message if user provides a non email string",
+      "uid" : "1837498e6ee8f88",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253741087,
+        "stop" : 1634253750267,
+        "duration" : 9180
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should limit the site code field to 24 or fewer characters",
+      "uid" : "8a2f75e45a805d15",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253605183,
+        "stop" : 1634253605677,
+        "duration" : 494
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "21c2cf0ba4b4c29b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634169056740,
+        "stop" : 1634169056749,
+        "duration" : 9
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "37b88b77f6cb2a3f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634250936320,
+        "stop" : 1634250936583,
+        "duration" : 263
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login with a valid site code and credentials",
+      "uid" : "5688e6626d3f7a11",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634171393483,
+        "stop" : 1634171393484,
+        "duration" : 1
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "754deb16ee6f0d65",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634169195349,
+        "stop" : 1634169195364,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "27d8df62a5c73547",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634171669023,
+        "stop" : 1634171675014,
+        "duration" : 5991
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if user submits incorrect credentials",
+      "uid" : "3658c1d78bd2e613",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253474510,
+        "stop" : 1634253476674,
+        "duration" : 2164
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "c83f6f63aec266c3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634183402068,
+        "stop" : 1634183409405,
+        "duration" : 7337
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a validation message if a user submits invalid site code and credentials",
+      "uid" : "ca92cad744a08277",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253479576,
+        "stop" : 1634253480811,
+        "duration" : 1235
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
       "name" : "Should allow students to login with valid credentials",
-      "uid" : "8c9a9c0a432c012c",
+      "uid" : "f4bc5b94c18e9ae4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634176844519,
+        "stop" : 1634176851123,
+        "duration" : 6604
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a valid character message if a user provides an invalid alphanumeric or non @ . + - _ characters",
+      "uid" : "c0710f33f4d5c80b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634250935244,
+        "stop" : 1634250935503,
+        "duration" : 259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an invalid email validation message if user provides a non email string",
+      "uid" : "e364250b7a1dea9d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634251868581,
+        "stop" : 1634251878504,
+        "duration" : 9923
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a valid character message if a user provides an invalid alphanumeric or non @ . + - _ characters",
+      "uid" : "89f388516ed7461c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634251879593,
+        "stop" : 1634251880089,
+        "duration" : 496
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login with a valid site code and credentials",
+      "uid" : "a1279e0013628ba8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634174526239,
+        "stop" : 1634174527421,
+        "duration" : 1182
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "de10c2dd0ac43ad0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634210955253,
+        "stop" : 1634210972872,
+        "duration" : 17619
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should require at least 3 characters for the site code field",
+      "uid" : "e3ec9c85d78dd74a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253604761,
+        "stop" : 1634253605183,
+        "duration" : 422
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should require alphanumeric characters in the site code field",
+      "uid" : "7e50ca866d3b50b7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253759730,
+        "stop" : 1634253760196,
+        "duration" : 466
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "457edde00ece80cb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634211039314,
+        "stop" : 1634211046178,
+        "duration" : 6864
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "2990e06065e4ff5c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634169238985,
+        "stop" : 1634169239005,
+        "duration" : 20
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "\"before all\" hook for Great Minds Primary (normal) Login Flows",
+      "uid" : "2cc8c766b95f0bfd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1634183347919,
+        "stop" : 1634183351211,
+        "duration" : 3292
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to reveal their password in plaintext",
+      "uid" : "6cdf6001a24c3570",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634212207041,
+        "stop" : 1634212207746,
+        "duration" : 705
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to change their login method after beginning a flow",
+      "uid" : "605212ca5e88b70f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634212199403,
+        "stop" : 1634212207041,
+        "duration" : 7638
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "49e75ecf931c8e8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634247006733,
+        "stop" : 1634247012645,
+        "duration" : 5912
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "9196e5e9f5123655",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
@@ -914,32 +2590,1081 @@
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
-      "name" : "Should allow students to login with valid credentials",
-      "uid" : "aee114e371ddbc44",
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "f0dd38d1d56de22f",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634171662668,
-        "stop" : 1634171669023,
-        "duration" : 6355
+        "start" : 1634178625235,
+        "stop" : 1634178641888,
+        "duration" : 16653
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "8198729d37ea4b70",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634179251847,
+        "stop" : 1634179269183,
+        "duration" : 17336
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a valid character message if a user provides an invalid alphanumeric or non @ . + - _ characters",
+      "uid" : "6c3661d33c80b6e7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253372886,
+        "stop" : 1634253373399,
+        "duration" : 513
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "90ee3df7e246e538",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253665701,
+        "stop" : 1634253665958,
+        "duration" : 257
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display username is required validation message if a user enters a username then clears the field",
+      "uid" : "246d632f580ffedb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253659358,
+        "stop" : 1634253660466,
+        "duration" : 1108
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "38c6ec8013d35003",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1634175513101,
+        "stop" : 1634175538455,
+        "duration" : 25354
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "285f66012cc0710d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634178455075,
+        "stop" : 1634178469310,
+        "duration" : 14235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display username is required validation message if a user enters a username then clears the field",
+      "uid" : "3821e50dfff999a2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253755607,
+        "stop" : 1634253756333,
+        "duration" : 726
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "94c701cd7fe9f3ba",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1634177308927,
+        "stop" : 1634177332716,
+        "duration" : 23789
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "\"after each\" hook for Login Page Login With Email Exception Flows",
+      "uid" : "69f1234a6f31f87d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634250788697,
+        "stop" : 1634250796273,
+        "duration" : 7576
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to change their login method after beginning a flow",
+      "uid" : "1cbaf8bf95cf8d37",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634248426907,
+        "stop" : 1634248435797,
+        "duration" : 8890
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "should login with valid credentials",
+      "uid" : "5f224b1825d08631",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634166726535,
+        "stop" : 1634166728778,
+        "duration" : 2243
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "40910ee34bef6654",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634180033870,
+        "stop" : 1634180050366,
+        "duration" : 16496
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an invalid email validation message if user provides a non email string",
+      "uid" : "bc28965e3056a446",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253463864,
+        "stop" : 1634253473019,
+        "duration" : 9155
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     }, {
       "name" : "Should allow users to login with a valid site code and credentials",
-      "uid" : "a4f9ca23ffa5bcd2",
+      "uid" : "5b01af7fc7a76a8f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634172242546,
+        "stop" : 1634172253244,
+        "duration" : 10698
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "67187b9b7bdc5437",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1634171675014,
-        "stop" : 1634171675015,
-        "duration" : 1
+        "start" : 1634172213892,
+        "stop" : 1634172229420,
+        "duration" : 15528
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a password is required message if user enters a password, then clears the field",
+      "uid" : "779ed648602e11f3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253476674,
+        "stop" : 1634253477089,
+        "duration" : 415
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "c2a101c7b4c029f8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634177642497,
+        "stop" : 1634177659058,
+        "duration" : 16561
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a spaces validation message if a user enters an email with spaces",
+      "uid" : "c3de5aba08fc7ade",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634251879057,
+        "stop" : 1634251879592,
+        "duration" : 535
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a password is required message if user enters a password, then clears the field",
+      "uid" : "1957237e989b229",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634251882335,
+        "stop" : 1634251882787,
+        "duration" : 452
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "6986897c5fffe1a2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634176874605,
+        "stop" : 1634176891317,
+        "duration" : 16712
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "7ccfdd419ea353b5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253376048,
+        "stop" : 1634253376543,
+        "duration" : 495
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display username is required validation message if a user enters a username then clears the field",
+      "uid" : "f13c6e9c3ff7fba6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253376588,
+        "stop" : 1634253377713,
+        "duration" : 1125
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a validation message if a user submits invalid site code and credentials",
+      "uid" : "97b18304934df5ab",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253661290,
+        "stop" : 1634253662479,
+        "duration" : 1189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should not allow spaces for the site code field",
+      "uid" : "1d2918cbdd5d2b9c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253482189,
+        "stop" : 1634253482583,
+        "duration" : 394
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if user submits incorrect credentials",
+      "uid" : "a7d7a48c0818de7c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634251706607,
+        "stop" : 1634251709025,
+        "duration" : 2418
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "473ad42b68911d8b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634183501049,
+        "stop" : 1634183508083,
+        "duration" : 7034
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an invalid email validation message if user provides a non email string",
+      "uid" : "13d2c4c37312e944",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253645578,
+        "stop" : 1634253654614,
+        "duration" : 9036
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "6899ecb3ab04ad72",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634169823466,
+        "stop" : 1634169831601,
+        "duration" : 8135
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should require alphanumeric characters in the site code field",
+      "uid" : "faebb7a210968ce8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634253382205,
+        "stop" : 1634253382816,
+        "duration" : 611
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "cdad4e30c306aac",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634183472593,
+        "stop" : 1634183492106,
+        "duration" : 19513
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "6ab32ec83bba5352",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634171348708,
+        "stop" : 1634171373055,
+        "duration" : 24347
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "2328256dd1c0c938",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254264190,
+        "stop" : 1634254285997,
+        "duration" : 21807
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an email is required message if user enters an email, then clears the field",
+      "uid" : "fe600deebd7eb078",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253750267,
+        "stop" : 1634253750842,
+        "duration" : 575
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a password is required message if user enters a password, then clears the field",
+      "uid" : "b9b3c09c567ff75f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634250936031,
+        "stop" : 1634250936320,
+        "duration" : 289
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "c2c145a0e8a43834",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634172172221,
+        "stop" : 1634172182785,
+        "duration" : 10564
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "c373b8aa7ea5344b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253477089,
+        "stop" : 1634253477628,
+        "duration" : 539
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a spaces validation message if a user enters an email with spaces",
+      "uid" : "b647280c8271b60d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253655064,
+        "stop" : 1634253655657,
+        "duration" : 593
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-94.0.4606.81" ]
     } ],
     "uid" : "516fe00eea05ad99e936fa729b55eff4"
-  } ]
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "e9e18197e15ae758",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254165220,
+        "stop" : 1634254172304,
+        "duration" : 7084
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login with a valid site code and credentials",
+      "uid" : "bb791d1237be516f",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254172304,
+        "stop" : 1634254178728,
+        "duration" : 6424
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow users to login with a valid site code and credentials",
+      "uid" : "a47f5117b64546bc",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253999264,
+        "stop" : 1634254005992,
+        "duration" : 6728
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "e2607bff2cc6b796",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254157347,
+        "stop" : 1634254165220,
+        "duration" : 7873
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow students to login with valid credentials",
+      "uid" : "6569e0319dbacdad",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253984776,
+        "stop" : 1634253992380,
+        "duration" : 7604
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "989d609bab1e92da",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254137110,
+        "stop" : 1634254157347,
+        "duration" : 20237
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow district administrators to login with valid credentials",
+      "uid" : "9ba2981d90e4fb5c",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253992381,
+        "stop" : 1634253999264,
+        "duration" : 6883
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should allow teachers to login with valid credentials",
+      "uid" : "60141cfb3ddc82da",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253964101,
+        "stop" : 1634253984776,
+        "duration" : 20675
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Should display a spaces validation message if a user enters an email with spaces",
+      "uid" : "4a44c5ff47c02b1",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254120259,
+        "stop" : 1634254120849,
+        "duration" : 590
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an email is required message if user enters an email, then clears the field",
+      "uid" : "609238f17329a864",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254119658,
+        "stop" : 1634254120259,
+        "duration" : 601
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display password is required validation message if a user enters a password then clears the field",
+      "uid" : "39aafdae6d90339c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254126479,
+        "stop" : 1634254126970,
+        "duration" : 491
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "750e55a5b8da9475",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253953737,
+        "stop" : 1634253954027,
+        "duration" : 290
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a site code is required message if a user enters a site code then clears the field",
+      "uid" : "696db3918c1c5636",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253948310,
+        "stop" : 1634253948801,
+        "duration" : 491
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a password is required message if user enters a password, then clears the field",
+      "uid" : "8bec5699cdce8e4",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253945567,
+        "stop" : 1634253946051,
+        "duration" : 484
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should require at least 3 characters for the site code field",
+      "uid" : "3f0268dad9c393dd",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253950157,
+        "stop" : 1634253950604,
+        "duration" : 447
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an invalid email validation message if user provides a non email string",
+      "uid" : "f215b977b1122f14",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253931105,
+        "stop" : 1634253941396,
+        "duration" : 10291
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an email is required message if user enters an email, then clears the field",
+      "uid" : "3c35b305ca356410",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253941396,
+        "stop" : 1634253941977,
+        "duration" : 581
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should require at least 3 characters for the site code field",
+      "uid" : "c728f0b7918a1db",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254128990,
+        "stop" : 1634254129440,
+        "duration" : 450
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display username is required validation message if a user enters a username then clears the field",
+      "uid" : "e2d99d0a43a44bec",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253946698,
+        "stop" : 1634253947845,
+        "duration" : 1147
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display an invalid email validation message if user provides a non email string",
+      "uid" : "45c753739d7f02d6",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254109265,
+        "stop" : 1634254119658,
+        "duration" : 10393
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should not allow spaces for the site code field",
+      "uid" : "a3a1960f49ff65d3",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254130488,
+        "stop" : 1634254130987,
+        "duration" : 499
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a site code is required message if a user enters a site code then clears the field",
+      "uid" : "9900e3efc6e5e3c3",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254126970,
+        "stop" : 1634254127434,
+        "duration" : 464
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display username is required validation message if a user enters a username then clears the field",
+      "uid" : "1a09b4b75093c827",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254125287,
+        "stop" : 1634254126479,
+        "duration" : 1192
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a spaces validation message if a user enters an email with spaces",
+      "uid" : "e0a57a0720eb71e5",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253941978,
+        "stop" : 1634253942524,
+        "duration" : 546
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if a user submits correct credentials, but an incorrect site code",
+      "uid" : "aaa1d796f0f723d9",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253952112,
+        "stop" : 1634253953737,
+        "duration" : 1625
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if user submits incorrect credentials",
+      "uid" : "70260d0e5185d95c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253943015,
+        "stop" : 1634253945567,
+        "duration" : 2552
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a valid character message if a user provides an invalid alphanumeric or non @ . + - _ characters",
+      "uid" : "f42cf487fe3b5e7",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254120850,
+        "stop" : 1634254121429,
+        "duration" : 579
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display password is required validation message if a user enters a password then clears the field",
+      "uid" : "4cc39944658fe736",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253947845,
+        "stop" : 1634253948309,
+        "duration" : 464
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should limit the site code field to 24 or fewer characters",
+      "uid" : "779da3c44721ca22",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253950604,
+        "stop" : 1634253951176,
+        "duration" : 572
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "\"after each\" hook for Login Page Login With Email Exception Flows",
+      "uid" : "597186bb0e2e5268",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634250583256,
+        "stop" : 1634250600807,
+        "duration" : 17551
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a validation message if a user submits invalid site code and credentials",
+      "uid" : "bbfe31549afafff8",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253948801,
+        "stop" : 1634253950157,
+        "duration" : 1356
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "64b1fe65110079f4",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253946052,
+        "stop" : 1634253946651,
+        "duration" : 599
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a validation message if a user submits invalid site code and credentials",
+      "uid" : "3826503386bb5f1",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254127434,
+        "stop" : 1634254128990,
+        "duration" : 1556
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if user submits incorrect credentials",
+      "uid" : "ba4ee8ed75d181b6",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254121429,
+        "stop" : 1634254124056,
+        "duration" : 2627
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should limit the site code field to 24 or fewer characters",
+      "uid" : "aa68389dce70bc3",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254129441,
+        "stop" : 1634254130045,
+        "duration" : 604
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a password is required message if user enters a password, then clears the field",
+      "uid" : "8ad05c93bbd2480c",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254124056,
+        "stop" : 1634254124615,
+        "duration" : 559
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a vague validation message if a user submits correct credentials, but an incorrect site code",
+      "uid" : "6eb933a8a0fc974",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254130988,
+        "stop" : 1634254132648,
+        "duration" : 1660
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "6482e3a41a444f55",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254124616,
+        "stop" : 1634254125238,
+        "duration" : 622
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should display a valid character message if a user provides an invalid alphanumeric or non @ . + - _ characters",
+      "uid" : "da968196e0dc113d",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253942524,
+        "stop" : 1634253943015,
+        "duration" : 491
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should disable the log in button if any field is marked as invalid",
+      "uid" : "bd003b4cb1b531d7",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254132648,
+        "stop" : 1634254132945,
+        "duration" : 297
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should require alphanumeric characters in the site code field",
+      "uid" : "8dde9460ad9d8ea0",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253951176,
+        "stop" : 1634253951630,
+        "duration" : 454
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should require alphanumeric characters in the site code field",
+      "uid" : "752f5667f4f75e5b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634254130045,
+        "stop" : 1634254130487,
+        "duration" : 442
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "\"before all\" hook for Login Page Login With Site Code Exception Flows",
+      "uid" : "b8dadcd73a2d0252",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1634250600824,
+        "stop" : 1634250601027,
+        "duration" : 203
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    }, {
+      "name" : "Should not allow spaces for the site code field",
+      "uid" : "ad84ba63276aca11",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634253951630,
+        "stop" : 1634253952112,
+        "duration" : 482
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-94.0.4606.81" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  } ],
+  "name" : "timeline"
 }

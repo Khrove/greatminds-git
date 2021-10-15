@@ -1,0 +1,200 @@
+{
+  "uid" : "b8dadcd73a2d0252",
+  "name" : "\"before all\" hook for Login Page Login With Site Code Exception Flows",
+  "fullName" : "Login Page Login With Site Code Exception Flows.\"before all\" hook for Login Page Login With Site Code Exception Flows",
+  "historyId" : "663eb5c08739628be97cda43db943a8c",
+  "time" : {
+    "start" : 1634250600824,
+    "stop" : 1634250601027,
+    "duration" : 203
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "socket hang up",
+  "statusTrace" : "RequestError: socket hang up\n                    at ClientRequest.<anonymous> (/Users/joshuajohnson/WebstormProjects/greatminds-git/greatminds/node_modules/got/dist/source/core/index.js:956:111)\n                    at Object.onceWrapper (events.js:422:26)\n                    at ClientRequest.emit (events.js:327:22)\n                    at ClientRequest.EventEmitter.emit (domain.js:467:12)\n                    at ClientRequest.origin.emit (/Users/joshuajohnson/WebstormProjects/greatminds-git/greatminds/node_modules/@szmarczak/http-timer/dist/source/index.js:43:20)\n                    at Socket.socketOnEnd (_http_client.js:493:9)\n                    at Socket.emit (events.js:327:22)\n                    at Socket.EventEmitter.emit (domain.js:467:12)\n                    at endReadableNT (internal/streams/readable.js:1327:12)\n                    at connResetException (internal/errors.js:607:14)\n                    at Socket.socketOnEnd (_http_client.js:493:23)\n                    at Socket.emit (events.js:327:22)\n                    at Socket.EventEmitter.emit (domain.js:467:12)\n                    at endReadableNT (internal/streams/readable.js:1327:12)\n                    at processTicksAndRejections (internal/process/task_queues.js:80:21)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "socket hang up",
+    "statusTrace" : "RequestError: socket hang up\n                    at ClientRequest.<anonymous> (/Users/joshuajohnson/WebstormProjects/greatminds-git/greatminds/node_modules/got/dist/source/core/index.js:956:111)\n                    at Object.onceWrapper (events.js:422:26)\n                    at ClientRequest.emit (events.js:327:22)\n                    at ClientRequest.EventEmitter.emit (domain.js:467:12)\n                    at ClientRequest.origin.emit (/Users/joshuajohnson/WebstormProjects/greatminds-git/greatminds/node_modules/@szmarczak/http-timer/dist/source/index.js:43:20)\n                    at Socket.socketOnEnd (_http_client.js:493:9)\n                    at Socket.emit (events.js:327:22)\n                    at Socket.EventEmitter.emit (domain.js:467:12)\n                    at endReadableNT (internal/streams/readable.js:1327:12)\n                    at connResetException (internal/errors.js:607:14)\n                    at Socket.socketOnEnd (_http_client.js:493:23)\n                    at Socket.emit (events.js:327:22)\n                    at Socket.EventEmitter.emit (domain.js:467:12)\n                    at endReadableNT (internal/streams/readable.js:1327:12)\n                    at processTicksAndRejections (internal/process/task_queues.js:80:21)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1634250600825,
+        "stop" : 1634250600847,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "52a6879cfee45c66",
+        "name" : "Request",
+        "source" : "52a6879cfee45c66.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "6722f0ac6944bd80",
+        "name" : "Response",
+        "source" : "6722f0ac6944bd80.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1634250600851,
+        "stop" : 1634250600869,
+        "duration" : 18
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9c109128b0c86234",
+        "name" : "Request",
+        "source" : "9c109128b0c86234.json",
+        "type" : "application/json",
+        "size" : 8337
+      }, {
+        "uid" : "98e87820b93fc60a",
+        "name" : "Response",
+        "source" : "98e87820b93fc60a.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1634250600869,
+        "stop" : 1634250600880,
+        "duration" : 11
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "91dfea5d7c02f65",
+        "name" : "Request",
+        "source" : "91dfea5d7c02f65.json",
+        "type" : "application/json",
+        "size" : 5649
+      }, {
+        "uid" : "db565e3b9aa737f2",
+        "name" : "Response",
+        "source" : "db565e3b9aa737f2.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1634250600881,
+        "stop" : 1634250600898,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "68066f1d8fbbab81",
+        "name" : "Request",
+        "source" : "68066f1d8fbbab81.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "cd48b7393cb43a17",
+        "name" : "Response",
+        "source" : "cd48b7393cb43a17.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/b14517e5-0539-4e4a-a6a1-32b86edc9ca5/click",
+      "time" : {
+        "start" : 1634250600900,
+        "stop" : 1634250601027,
+        "duration" : 127
+      },
+      "status" : "broken",
+      "statusMessage" : "RequestError: socket hang up\n                    at ClientRequest.<anonymous> (/Users/joshuajohnson/WebstormProjects/greatminds-git/greatminds/node_modules/got/dist/source/core/index.js:956:111)\n                    at Object.onceWrapper (events.js:422:26)\n                    at ClientRequest.emit (events.js:327:22)\n                    at ClientRequest.EventEmitter.emit (domain.js:467:12)\n                    at ClientRequest.origin.emit (/Users/joshuajohnson/WebstormProjects/greatminds-git/greatminds/node_modules/@szmarczak/http-timer/dist/source/index.js:43:20)\n                    at Socket.socketOnEnd (_http_client.js:493:9)\n                    at Socket.emit (events.js:327:22)\n                    at Socket.EventEmitter.emit (domain.js:467:12)\n                    at endReadableNT (internal/streams/readable.js:1327:12)\n                    at connResetException (internal/errors.js:607:14)\n                    at Socket.socketOnEnd (_http_client.js:493:23)\n                    at Socket.emit (events.js:327:22)\n                    at Socket.EventEmitter.emit (domain.js:467:12)\n                    at endReadableNT (internal/streams/readable.js:1327:12)\n                    at processTicksAndRejections (internal/process/task_queues.js:80:21)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 5,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Login Page Login With Site Code Exception Flows"
+  }, {
+    "name" : "testClass",
+    "value" : "Login Page Login With Site Code Exception Flows"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Login Page Login With Site Code Exception Flows"
+  }, {
+    "name" : "package",
+    "value" : "Login Page Login With Site Code Exception Flows"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-94.0.4606.81"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b8dadcd73a2d0252.json",
+  "parameterValues" : [ "chrome-94.0.4606.81" ]
+}
